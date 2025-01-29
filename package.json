@@ -1,0 +1,16 @@
+{
+	"name": "my-express-ci-cd",
+  	"version": "1.0.0",
+ 	 "description": "A small Express app with CI/CD",
+  	"main": "app.js",
+  	"scripts": {
+    	"test": "jest"
+  	},
+	"dependencies": {
+		"express": "^4.21.2"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0",
+		"supertest": "^7.0.0"
+	}
+}
